@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>XT Core test</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="common.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+	<div class="heading">SpaceX Launch Programs</div>
+	<section class="spacex_section">
+		<div class="filter_left">
+			<div class="filter_head">Filters</div>
+			<div class="launch_head">Launch Year<hr></div>
+			<div class="mrg_b20">
+				<div class="tag_lable">
+					<span class="active">2006</span>
+					<span>2007</span>
+				</div>
+				<div class="tag_lable">
+					<span>2008</span>
+					<span>2009</span>
+				</div>
+				<div class="tag_lable">
+					<span>2010</span>
+					<span>2011</span>
+				</div>
+				<div class="tag_lable">
+					<span>2012</span>
+					<span>2013</span>
+				</div>
+				<div class="tag_lable">
+					<span>2014</span>
+					<span>2015</span>
+				</div>
+				<div class="tag_lable">
+					<span>2016</span>
+					<span>2017</span>
+				</div>
+				<div class="tag_lable">
+					<span>2018</span>
+					<span>2019</span>
+				</div>
+				<div class="tag_lable">
+					<span>2020</span>
+				</div>
+			</div>
+			<div class="launch_head">Successful Launch <hr></div>
+			<div class="mrg_b20">
+				<div class="tag_lable">
+					<span>True</span>
+					<span>False</span>
+				</div>
+			</div>
+			<div class="launch_head">Successful Landing <hr></div>
+			<div class="mrg_b20">
+				<div class="tag_lable">
+					<span>True</span>
+					<span>False</span>
+				</div>
+			</div>
+		</div>
+		<div class="filter_right">
+			<div class="card_section">
+				<div class="card">
+					<div class="img_bg"><img src="icon1.jpg"></div>
+					<div class="pad_20">
+						<div class="card_head">FalconSal #1</div>
+					<div class="card_lable">
+						<span class="lable_head">Mission Ids:</span>
+						<span class="lable_detail">{list Mission Ids}</span>
+					</div>
+					<div class="card_lable">
+						<span class="lable_head">Launch Year:</span>
+						<span class="lable_detail">2006</span>
+					</div>
+					<div class="card_lable">
+						<span class="lable_head">Successful Launch:</span>
+						<span class="lable_detail">false</span>
+					</div>
+					<div class="card_lable">
+						<span class="lable_head">Successful Landing:</span>
+						<span class="lable_detail">{launch_landing}</span>
+					</div>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="img_bg"><img src="icon2.png"></div>
+					<div class="pad_20">
+						<div class="card_head">DemoSat #2</div>
+					<div class="card_lable">
+						<span class="lable_head">Mission Ids:</span>
+						<span class="lable_detail">{list Mission Ids}</span>
+					</div>
+					<div class="card_lable">
+						<span class="lable_head">Launch Year:</span>
+						<span class="lable_detail">2006</span>
+					</div>
+					<div class="card_lable">
+						<span class="lable_head">Successful Launch:</span>
+						<span class="lable_detail">false</span>
+					</div>
+					<div class="card_lable">
+						<span class="lable_head">Successful Landing:</span>
+						<span class="lable_detail">{launch_landing}</span>
+					</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="img_bg"><img src="icon3.png"></div>
+					<div class="pad_20">
+						<div class="card_head">Trailblazer #3</div>
+					<div class="card_lable">
+						<span class="lable_head">Mission Ids:</span>
+						<span class="lable_detail">{list Mission Ids}</span>
+					</div>
+					<div class="card_lable">
+						<span class="lable_head">Launch Year:</span>
+						<span class="lable_detail">2006</span>
+					</div>
+					<div class="card_lable">
+						<span class="lable_head">Successful Launch:</span>
+						<span class="lable_detail">false</span>
+					</div>
+					<div class="card_lable">
+						<span class="lable_head">Successful Landing:</span>
+						<span class="lable_detail">{launch_landing}</span>
+					</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="img_bg"><img src="icon7.png"></div>
+					<div class="pad_20">
+						<div class="card_head">RatSat #4</div>
+					<div class="card_lable">
+						<span class="lable_head">Mission Ids:</span>
+						<span class="lable_detail">{list Mission Ids}</span>
+					</div>
+					<div class="card_lable">
+						<span class="lable_head">Launch Year:</span>
+						<span class="lable_detail">2006</span>
+					</div>
+					<div class="card_lable">
+						<span class="lable_head">Successful Launch:</span>
+						<span class="lable_detail">false</span>
+					</div>
+					<div class="card_lable">
+						<span class="lable_head">Successful Landing:</span>
+						<span class="lable_detail">{launch_landing}</span>
+					</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="card_section">
+				<div class="card">
+					<div class="img_bg"><img src="icon5.jpeg"></div>
+					<div class="pad_20">
+						<div class="card_head">{mission_name} #{flight_number}</div>
+					<div class="card_lable">
+						<span class="lable_head">Mission Ids:</span>
+						<span class="lable_detail">{list Mission Ids}</span>
+					</div>
+					<div class="card_lable">
+						<span class="lable_head">Launch Year:</span>
+						<span class="lable_detail">2006</span>
+					</div>
+					<div class="card_lable">
+						<span class="lable_head">Successful Launch:</span>
+						<span class="lable_detail">false</span>
+					</div>
+					<div class="card_lable">
+						<span class="lable_head">Successful Landing:</span>
+						<span class="lable_detail">{launch_landing}</span>
+					</div>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="img_bg"><img src="icon6.png"></div>
+					<div class="pad_20">
+						<div class="card_head">{mission_name} #{flight_number}</div>
+					<div class="card_lable">
+						<span class="lable_head">Mission Ids:</span>
+						<span class="lable_detail">{list Mission Ids}</span>
+					</div>
+					<div class="card_lable">
+						<span class="lable_head">Launch Year:</span>
+						<span class="lable_detail">2006</span>
+					</div>
+					<div class="card_lable">
+						<span class="lable_head">Successful Launch:</span>
+						<span class="lable_detail">false</span>
+					</div>
+					<div class="card_lable">
+						<span class="lable_head">Successful Landing:</span>
+						<span class="lable_detail">{launch_landing}</span>
+					</div>
+					</div>
+				</div>
+				
+				<div class="card">
+					<div class="img_bg"><img src="icon7.png"></div>
+					<div class="pad_20">
+						<div class="card_head">{mission_name} #{flight_number}</div>
+					<div class="card_lable">
+						<span class="lable_head">Mission Ids:</span>
+						<span class="lable_detail">{list Mission Ids}</span>
+					</div>
+					<div class="card_lable">
+						<span class="lable_head">Launch Year:</span>
+						<span class="lable_detail">2006</span>
+					</div>
+					<div class="card_lable">
+						<span class="lable_head">Successful Launch:</span>
+						<span class="lable_detail">false</span>
+					</div>
+					<div class="card_lable">
+						<span class="lable_head">Successful Landing:</span>
+						<span class="lable_detail">{launch_landing}</span>
+					</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="img_bg"><img src="icon1.jpg"></div>
+					<div class="pad_20">
+						<div class="card_head">{mission_name} #{flight_number}</div>
+					<div class="card_lable">
+						<span class="lable_head">Mission Ids:</span>
+						<span class="lable_detail">{list Mission Ids}</span>
+					</div>
+					<div class="card_lable">
+						<span class="lable_head">Launch Year:</span>
+						<span class="lable_detail">2006</span>
+					</div>
+					<div class="card_lable">
+						<span class="lable_head">Successful Launch:</span>
+						<span class="lable_detail">false</span>
+					</div>
+					<div class="card_lable">
+						<span class="lable_head">Successful Landing:</span>
+						<span class="lable_detail">{launch_landing}</span>
+					</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section> 
+	<div class="foot">Developed by: <span>{developer_name}</span>	</div>
+		
+
+</body>
+</html>
